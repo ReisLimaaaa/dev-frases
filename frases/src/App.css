@@ -1,0 +1,52 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffeaa7;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 120px;
+}
+
+.logo {
+  max-width: 350px;
+}
+
+.titulo {
+  color: #2d3436;
+  margin: 14px 0;
+}
+
+.area-categoria {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 34px;
+}
+
+.btn-categoria{
+  padding: 4px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-frases {
+  background-color: #a29bfe;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 16px;
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.texto-frase{
+  width: 420px;
+  background-color: #74b9ff;
+  border-radius: 4px;
+  text-align: center;
+  padding: 14px 22px;
+  margin: 24px 0 16px 0;
+  line-height: 150%;
+  color: white;
+  font-style: italic;
+  font-size: 18px;
+}
